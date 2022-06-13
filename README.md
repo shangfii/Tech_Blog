@@ -3,7 +3,7 @@ Tech_Blog
 Watch the following video of the app at work.
 
 
-![Note Taker Live](https://github.com/shangfii/Note_Taker_APP/blob/main/images/NoteTakerDemo.gif?raw=true)
+![Tech_Blog]()
 
 
 ## Technologies used
