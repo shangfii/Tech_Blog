@@ -1,6 +1,8 @@
 # Tech_Blog
 Tech_Blog
 
+[Click here to see the this app live on Heroku](https://quiet-lowlands-70295.herokuapp.com/)
+
 Watch the following video of the app at work.
 
 
