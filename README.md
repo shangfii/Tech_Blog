@@ -5,6 +5,16 @@ Watch the following video of the app at work.
 
 ![Tech_Blog]()
 
+## Steps to run this app
+
+1. Download this repo on a computer and nagivate the folder with the files
+2. Using your editor (VS code in my case) create the .env file following the example
+3. open your terminal and used mysql to create the database and then exit mysql
+4. Run the commmand "npm init" and follow the prompts 
+5. Run the command "npm run seed"
+6. Next run the command "npm start"
+7. Now open  your default terminal on a brower and see the tech at work
+8. you can redeploy on Heroku 
 
 ## Technologies used
 To create this app successfully one will need to have an understading of the following technologies used.
