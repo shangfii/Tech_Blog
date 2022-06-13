@@ -1,0 +1,40 @@
+{{!-- sign up page --}}
+<article class="row">
+    <form class="col s12 signup-form">
+        <h3 class="center-align">Sign Up</h3>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                {{!-- require a name --}}
+                <input id="name-signup" type="text">
+                <label for="name-signup">Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                {{!-- require an email --}}
+                <input id="email-signup" type="email" class="validate">
+                <label for="email-signup">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">vpn_key</i>
+                {{!-- require to set a password --}}
+                <input id="password-signup" type="password" class="validate">
+                <label for="password-signup">Password</label>
+                {{!-- informing user of password requirement --}}
+                <span class="helper-text">Password must be minimum 6 characters long</span>
+            </div>
+        </div>
+        <div class="row">
+            <button class="waves-effect waves-light btn col s12" type="submit" name="action">Sign Up</button>
+        </div>
+    </form>
+    <a href="/login">Login Instead</a>
+</article>
+
+{{!-- js required to create account in db --}}
+<script src="/js/signup.js"></script>

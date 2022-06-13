@@ -1,0 +1,12 @@
+{{!-- homepage displays all blogs posted to website --}}
+<!-- Loop over each object in the blogs array -->
+{{#each blogs as |blog| }}
+    <div class="col s12 l6">
+        <div class="card grey lighten-1">
+            <div class="card-content black-text">
+                <a href="/blog/{{blog.id}}" class="card-title white-text">{{blog.title}} <font size="-1">Post by {{blog.user.name}} on {{format_date blog.date_created}}</font></a>
+                <p>{{blog.description}}</p>
+            </div>
+        </div>
+    </div>
+{{/each}}

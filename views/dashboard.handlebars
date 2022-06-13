@@ -1,0 +1,28 @@
+{{!-- dashboard page for logged in user --}}
+<div class="grey-text text-darken-2">
+    <h2>Welcome, {{user.name}}</h2>
+</div>
+<div class="row center-align">
+    <a href="/dashboard/add" class="waves-effect waves-light btn col"><i class="material-icons right">add</i>Add Post</a>
+</div>
+<div class="grey-text text-darken-2">
+    <h4 class="center-align">Your Blog Posts:</h4>
+</div>
+{{!-- display all of users posts/blogs --}}
+{{#if user.blogs.length}}
+    {{#each user.blogs as |blog|}}
+        <div class="row">
+            <div class="col s12">
+                <div class="card grey lighten-1">
+                    <div class="card-content black-text">
+                        <a href="/dashboard/edit/{{blog.id}}" class="card-title white-text">{{blog.title}} <font size="-1">Posted on {{format_date blog.date_created}}</font></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+
+{{else}}
+<h6 class="center-align">No blogs yet!</h6>
+
+{{/if}}

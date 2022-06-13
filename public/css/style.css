@@ -1,0 +1,32 @@
+/* Majority of CSS was done with Materialize CSS framework. The following are minor adjustments */
+#navigation {
+  padding-bottom: 20px;
+  padding-left: 2%;
+}
+
+h3 {
+  margin-bottom: 0%;
+}
+/* Adding background image to header section */
+header {
+  height: 8rem;
+  background-image: url("/images/techindustry.jpg");
+  margin: 0%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header div {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+header div h4 {
+  margin: 0%;
+  padding: 5px 15px;
+}
+
+.center-align {
+  color:rgb(236, 233, 233)
+}

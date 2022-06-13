@@ -1,0 +1,14 @@
+{{!-- partial handlebar code for displaying all comments for a specific blog --}}
+{{#each this}}
+<div class="row">
+    <div class="col s12">
+        <div class="card grey lighten-2">
+            <div class="card-content black-text">
+                <a class="card-title white-text">Comment</a>
+                <p>{{description}}</p>
+                <font size="-1">Posted by {{user.name}} on {{format_date date_created}}</font>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}

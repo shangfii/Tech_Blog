@@ -1,0 +1,31 @@
+
+
+
+{{!-- page for editing or deleting user specific posts/blogs  --}}
+<article class="row">
+    <form class="col s12 editPost-form">
+        <h4 class="center-align">Edit Post</h4>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">title</i>
+                <input id="title" value="{{blog.title}}" type="text" name="title">
+                <label for="title">Title</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <textarea id="postContent" class="materialize-textarea active " data-id="{{blog.id}}">{{blog.description}}</textarea>
+                <label for="postContent">Content</label>
+            </div>
+        </div>
+        <div class="row">
+            <button class="waves-effect waves-light btn col s12" type="submit" name="action">Update Post</button>
+        </div>
+    </form>
+    <div class="row">
+    <a href="/dashboard/add" class="waves-effect waves-light btn col s12 del-button" data-id="{{blog.id}}">Delete Post</a>
+</div>
+</article>
+
+{{!-- js required to connect to db to update or delete post --}}
+<script src="/js/dashboardEdit.js"></script>

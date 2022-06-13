@@ -1,0 +1,31 @@
+{{!-- detailed page for a specific post/blog --}}
+<div class="row">
+    <div class="col s12">
+        <div class="card grey">
+            <div class="card-content black-text">
+                <a class="card-title white-text">{{blog.title}} <font size="-1">Post by {{blog.user.name}} on {{format_date blog.date_created}}</font></a>
+                <p>{{blog.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- display comments made for blog --}}
+{{> comments blog.comments}}
+{{!-- if logged in, user can leave a comment to the blog --}}
+ {{#if logged_in}}
+<div class="row">
+    <form class="col s12 comment-form">
+        <div class="row">
+            <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea active" data-id="{{blogID}}"></textarea>
+            <label for="textarea1">Comment</label>
+            </div>
+        </div>
+        <div class="row">
+            <button class="waves-effect waves-light btn col s12" type="submit" name="action">Submit</button>
+        </div>
+    </form>
+</div>
+{{!-- js required for adding comment to db --}}
+<script src="/js/comment.js"></script>
+{{/if}}
