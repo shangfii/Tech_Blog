@@ -47,7 +47,7 @@ Visual Studio Code is a code editor redefined and optimized for building and deb
 
 15. [Handlebars](https://handlebarsjs.com/) provides the power necessary to let you build semantic templates effectively with no frustration.
 
-16. [Sequilize](https://sequelize.org/)is a modern TypeScript and Node.js ORM for Postgres, MySQL, MariaDB, SQLite and SQL Server, and more. Featuring solid transaction support, relations, eager and lazy loading, read replication and more.
+16. [Sequilize](https://sequelize.org/) is a modern TypeScript and Node.js ORM for Postgres, MySQL, MariaDB, SQLite and SQL Server, and more. Featuring solid transaction support, relations, eager and lazy loading, read replication and more.
 
 
 
