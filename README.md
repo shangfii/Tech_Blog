@@ -49,6 +49,10 @@ Visual Studio Code is a code editor redefined and optimized for building and deb
 
 16. [Sequilize](https://sequelize.org/) is a modern TypeScript and Node.js ORM for Postgres, MySQL, MariaDB, SQLite and SQL Server, and more. Featuring solid transaction support, relations, eager and lazy loading, read replication and more.
 
+17. [MySQL](https://dev.mysql.com/doc/) is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured
+
+
+
 
 
 
