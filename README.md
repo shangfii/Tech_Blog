@@ -1,9 +1,10 @@
 # Tech_Blog
 Tech_Blog
+
 Watch the following video of the app at work.
 
 
-![Tech_Blog]()
+![Tech_Blog](https://github.com/shangfii/Tech_Blog/blob/main/iMages/ezgif.com-gif-maker%20(4).gif)
 
 ## Steps to run this app
 
