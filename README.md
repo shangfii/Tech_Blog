@@ -45,6 +45,10 @@ Visual Studio Code is a code editor redefined and optimized for building and deb
 
 14. [Heroku](https://www.heroku.com/). This app was been deployed on Heroku. Heroku is a cloud platform as a service supporting several programming languages. One of the first cloud platforms, Heroku has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.
 
+15. [Handlebars](https://handlebarsjs.com/) provides the power necessary to let you build semantic templates effectively with no frustration.
+
+
+
 
 ## How to Modify this application
 
